@@ -1,0 +1,165 @@
+body{
+    background: black;
+    padding-top: 10px;
+    margin: 25px 200px;
+  } 
+  
+  p{
+    color: lime; 
+    font-family: "Courier";
+    font-size: 15px;
+    margin: 10px 0 0 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 30em;
+    animation: type 2.5s steps(60, end); 
+  }
+  
+  p:nth-child(2){
+    animation: type2 3s steps(60, end);
+    animation-delay: 50ms;
+  }
+  p:nth-child(3){
+    animation: type3 4s steps(60, end);
+    animation-delay: 60ms;
+  
+  }
+  p:nth-child(4){
+    animation: type4 4.5s steps(60, end);
+  
+  }
+  p:nth-child(5){
+    animation: type5 5s steps(60, end);
+  }
+  p:nth-child(6){
+    animation: type6 5.5s steps(60, end);
+    animation-delay: 50ms;
+  }
+  p:nth-child(7){
+    animation: type7 6s steps(60, end);
+    animation-delay: 60ms;
+  
+  }
+  p:nth-child(8){
+    animation: type8 6.5s steps(60, end);
+  
+  }
+  p:nth-child(9){
+    animation: type9 7s steps(60, end);
+  }
+  p:nth-child(10){
+    animation: type10 7.5s steps(60, end);
+    animation-delay: 50ms;
+  }
+  p:nth-child(11){
+    animation: type11 8s steps(60, end);
+    animation-delay: 60ms;
+  
+  }
+  p:nth-child(12){
+    animation: type12 8.5s steps(60, end);
+  
+  }
+  p:nth-child(13){
+    animation: type13 9s steps(60, end);
+  }
+  p:nth-child(14){
+    animation: type14 9.5s steps(60, end);
+    animation-delay: 50ms;
+  }
+  p:nth-child(15){
+    animation: type15 15s steps(60, end);
+    animation-delay: 26000ms;
+  
+  }
+  
+  p a{
+    color: lime;
+    text-decoration: none;
+  }
+  
+  span{
+    animation: blink 1s infinite;
+  }
+  
+  @keyframes type{ 
+    from { width: 0; } 
+  } 
+  
+  @keyframes type2{
+    0%{width: 0;}
+    50%{width: 0;}
+    100%{ width: 100; } 
+  } 
+  @keyframes type3{
+    0%{width: 0;}
+    50%{width: 0;}
+    100%{ width: 100; } 
+  }
+  @keyframes type4{
+    0%{width: 0;}
+    50%{width: 0;}
+    100%{ width: 100; } 
+  }
+  @keyframes type5{
+    0%{width: 0;}
+    50%{width: 0;}
+    100%{ width: 100; } 
+  } 
+  @keyframes type6{
+    0%{width: 0;}
+    50%{width: 0;}
+    100%{ width: 100; } 
+  } 
+  @keyframes type7{
+    0%{width: 0;}
+    50%{width: 0;}
+    100%{ width: 100; } 
+  }
+  @keyframes type8{
+    0%{width: 0;}
+    50%{width: 0;}
+    100%{ width: 100; } 
+  }
+  @keyframes type9{
+    0%{width: 0;}
+    50%{width: 0;}
+    100%{ width: 100; } 
+  }
+  @keyframes type10{
+    0%{width: 0;}
+    50%{width: 0;}
+    100%{ width: 100; } 
+  } 
+  @keyframes type11{
+    0%{width: 0;}
+    50%{width: 0;}
+    100%{ width: 100; } 
+  }
+  @keyframes type12{
+    0%{width: 0;}
+    50%{width: 0;}
+    100%{ width: 100; } 
+  }
+  @keyframes type13{
+    0%{width: 0;}
+    50%{width: 0;}
+    100%{ width: 100; } 
+  }
+  @keyframes type14{
+    0%{width: 0;}
+    50%{width: 0;}
+    100%{ width: 100; } 
+  } 
+  @keyframes type15{
+    0%{width: 0;}
+    50%{width: 0;}
+    100%{ width: 100; } 
+  }                              
+  @keyframes blink{
+    to{opacity: .0;}
+  }
+  
+  ::selection{
+    background: black;
+  }
